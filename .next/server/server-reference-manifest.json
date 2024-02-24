@@ -1,5 +1,22 @@
 {
-  "node": {},
+  "node": {
+    "37ec9f875bfafc0cf936dbc744cfdca8269de162": {
+      "workers": {
+        "app/meals/share/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CCode%5C%5CNextJS%5C%5CNextJS%20Projects%5C%5Cnext-foodies%5C%5Clib%5C%5Cactions.js%22%2C%5B%22shareMeal%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/meals/share/page": "rsc"
+      }
+    },
+    "a4e8cd5db9d6c7d116584048d6d1c19c64a480e9": {
+      "workers": {
+        "app/meals/share/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CCode%5C%5CNextJS%5C%5CNextJS%20Projects%5C%5Cnext-foodies%5C%5Clib%5C%5Cactions.js%22%2C%5B%22shareMeal%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/meals/share/page": "action-browser"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "d1NzRNOS2DGfasslsYwC3QZQjfNNUcwfF95YKqmpU88="
+  "encryptionKey": "oopfdVDacGh5zC55j3FSxz5c9B5O1xRVLgUvPvwYI+k="
 }

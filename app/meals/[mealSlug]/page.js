@@ -2,10 +2,16 @@ import classes from './page.module.css'
 import Image from 'next/image'
 
 import { getMeal } from '@/lib/meals'
+import { notFound } from 'next/navigation'
 
 export default function MealDetailsPage({ params }) {
     // Seçilen yemeğin adı = mealSlug (url'deki isim)
     const meal = getMeal(params.mealSlug)
+
+    // Eğer meal yoksa, en yakın not found sayfasını göster.
+    if (!meal) {
+        notFound();
+    }
 
     // Line breakler için regex yazıyoruz
     meal.instructions = meal.instructions.replace(/\n/g, '<br />')
